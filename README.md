@@ -46,19 +46,29 @@ The first element of the pair indicates the position of the pile, and the second
 To use the Pop-it game functions, you can simply copy the Haskell code provided and include it in your Haskell project. Ensure that you have Haskell installed on your system.
 
 ## Documentation
-`play :: Position -> Move -> Position`
+```haskell
+play :: Position -> Move -> Position
+```
 > Receives a position p, a valid move j, and returns the position obtained by making that move.
 
-`possibleMoves :: Position -> [Move]`
+```haskell
+possibleMoves :: Position -> [Move]
+```
 > Receives a position p and returns the set of valid moves starting from p.
 
-`isWinningPosition :: Position -> Bool`
+```haskell
+isWinningPosition :: Position -> Bool
+```
 > Determines whether a position p is winning.
 
-`winningMove :: Position -> Move`
+```haskell
+winningMove :: Position -> Move
+```
 > Receives a winning position p and returns a move that would leave the opponent in a non-winning position.
 
-`numberOfWinningMoves :: Position -> Int`
+```haskell
+numberOfWinningMoves :: Position -> Int
+```
 > Receives a position p (not necessarily winning) and returns the number of winning moves starting from p.
 
 ## License
