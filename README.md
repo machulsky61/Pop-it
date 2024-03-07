@@ -1,9 +1,13 @@
+![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)
+
 # Pop-it Game
 
 ## Overview
 Pop-it is a two-player game where players take turns alternately. At the beginning of the game, there are several piles of stones on a table. A move consists of selecting one of the piles and removing some stones from it (at least one stone must be removed, and it's also valid to remove all the stones from the pile). The player who takes the last stone wins. In other words, the player who cannot make a move because there are no stones left on the table loses. It's worth noting that there are no ties, and the game always ends since at some point all the stones are removed.
 
 The main objective of this project is to write functions that allow playing Pop-it optimally.
+
+![Uncle Petros and Goldbach's Conjecture](https://d15djgxczo4v72.cloudfront.net/s3fs-public/davidson_images/NimGame_wiki_580.png)
 
 ## Table of Contents
 - [Winning Positions](#winning-positions)
