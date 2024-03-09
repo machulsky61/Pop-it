@@ -7,7 +7,7 @@ Pop-it is a two-player game where players take turns alternately. At the beginni
 
 The main objective of this project is to write functions that allow playing Pop-it optimally.
 
-![Uncle Petros and Goldbach's Conjecture](https://d15djgxczo4v72.cloudfront.net/s3fs-public/davidson_images/NimGame_wiki_580.png)
+![Pop-it NIM](https://d15djgxczo4v72.cloudfront.net/s3fs-public/davidson_images/NimGame_wiki_580.png)
 
 ## Table of Contents
 - [Winning Positions](#winning-positions)
